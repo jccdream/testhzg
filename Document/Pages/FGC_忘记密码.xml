@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sheet name="FGC_忘记密码">
+  <DefaultColumnWidth value="20" />
+  <PrintInfo>
+    <Margin />
+    <PaperSize />
+  </PrintInfo>
+  <NamedStyles>
+    <Item index="0" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7" />
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="1" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABATPT#FFBABABA" />
+      <ShrinkToFit value="False" />
+      <LeftBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </LeftBorder>
+      <TopBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </TopBorder>
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="2" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <ShrinkToFit value="False" />
+      <TopBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </TopBorder>
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="3" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABATPT#FFBABABA" />
+      <ShrinkToFit value="False" />
+      <TopBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </TopBorder>
+      <RightBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </RightBorder>
+      <BottomBorder value="(null)" />
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="4" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <ShrinkToFit value="False" />
+      <LeftBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </LeftBorder>
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="5" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <ShrinkToFit value="False" />
+      <RightBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </RightBorder>
+      <BottomBorder value="(null)" />
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="6" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABALFT#FFBABABA" />
+      <ShrinkToFit value="False" />
+      <LeftBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </LeftBorder>
+      <RightBorder value="(null)" />
+      <BottomBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </BottomBorder>
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="7" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <ShrinkToFit value="False" />
+      <RightBorder value="(null)" />
+      <BottomBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </BottomBorder>
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="8" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABARTT#FFBABABA" />
+      <ShrinkToFit value="False" />
+      <RightBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </RightBorder>
+      <BottomBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </BottomBorder>
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="9" type="StyleInfo">
+      <Name value="FSIZE=37.33BKGUDCOLR=#FFF7F7F7FGUDCLOR=#FF333333FMT=General" />
+      <FontSize value="37.3333320617676" />
+      <ShrinkToFit value="False" />
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+      <Foreground type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FF333333" />
+        <Opacity value="1" />
+      </Foreground>
+      <Formatter value="[Auto]General" />
+    </Item>
+    <Item index="10" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7FGUDCLOR=#FF333333HVLIGN=LeftWRAPTXT=TrueBORD=BTMLFRTTPFMT=General" />
+      <HorizontalAlignment value="Left" />
+      <WordWrap value="True" />
+      <ShrinkToFit value="False" />
+      <LeftBorder value="(null)" />
+      <TopBorder value="(null)" />
+      <RightBorder value="(null)" />
+      <BottomBorder value="(null)" />
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+      <Foreground type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FF333333" />
+        <Opacity value="1" />
+      </Foreground>
+      <Formatter value="[Auto]General" />
+    </Item>
+    <Item index="11" type="StyleInfo">
+      <Name value="FSIZE=14.00BKGUDCOLR=#FFF7F7F7FGUDCLOR=#FF595959HVLIGN=LeftBORD=BTMLFRTTPFMT=General" />
+      <FontSize value="14" />
+      <HorizontalAlignment value="Left" />
+      <ShrinkToFit value="False" />
+      <LeftBorder value="(null)" />
+      <TopBorder value="(null)" />
+      <RightBorder value="(null)" />
+      <BottomBorder value="(null)" />
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+      <Foreground type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FF595959" />
+        <Opacity value="1" />
+      </Foreground>
+      <Formatter value="[Auto]General" />
+    </Item>
+    <Item index="12" type="StyleInfo">
+      <Name value="FSIZE=14.00FWight=BoldBKGUDCOLR=#FF2690EBFGUDCLOR=#FFFFFFFFBORD=TPFMT=General" />
+      <FontSize value="14" />
+      <FontWeight value="Bold" />
+      <ShrinkToFit value="False" />
+      <TopBorder value="(null)" />
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FF2690EB" />
+        <Opacity value="1" />
+      </Background>
+      <Foreground type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFFFFFFF" />
+        <Opacity value="1" />
+      </Foreground>
+      <Formatter value="[Auto]General" />
+    </Item>
+    <Item index="13" type="StyleInfo">
+      <Name value="FSIZE=14.00FWight=BoldBKGUDCOLR=#FFF7F7F7FGUDCLOR=#FF0070C0HVLIGN=CenterINDENT=0FMT=General" />
+      <FontSize value="14" />
+      <FontWeight value="Bold" />
+      <HorizontalAlignment value="Center" />
+      <TextIndent value="0" />
+      <ShrinkToFit value="False" />
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+      <Foreground type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FF0070C0" />
+        <Opacity value="1" />
+      </Foreground>
+      <Formatter value="[Auto]General" />
+    </Item>
+    <Item index="14" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <TopBorder value="(null)" />
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="15" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7BORD=LF" />
+      <LeftBorder value="(null)" />
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="16" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <BottomBorder value="(null)" />
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="17" type="StyleInfo">
+      <Name value="BKGUDCOLR=#FFF7F7F7BORD=RT" />
+      <RightBorder value="(null)" />
+      <Background type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FFF7F7F7" />
+        <Opacity value="1" />
+      </Background>
+    </Item>
+    <Item index="18" type="StyleInfo">
+      <Name value="FSIZE=14.00BORD=BTMT#FFBABABALFT#FFBABABARTTPT#FFBABABA" />
+      <FontSize value="14" />
+      <ShrinkToFit value="False" />
+      <LeftBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </LeftBorder>
+      <TopBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </TopBorder>
+      <RightBorder value="(null)" />
+      <BottomBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </BottomBorder>
+    </Item>
+    <Item index="19" type="StyleInfo">
+      <Name value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <TopBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </TopBorder>
+      <BottomBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </BottomBorder>
+    </Item>
+    <Item index="20" type="StyleInfo">
+      <Name value="BORD=BTMT#FFBABABARTT#FFBABABATPT#FFBABABA" />
+      <TopBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </TopBorder>
+      <RightBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </RightBorder>
+      <BottomBorder>
+        <Type value="Thin" />
+        <Color value="#FFBABABA" />
+      </BottomBorder>
+    </Item>
+  </NamedStyles>
+  <DefaultStyle>
+    <FontFamily value="微软雅黑" />
+  </DefaultStyle>
+  <DefaultColumnHeaderStyle>
+    <HorizontalAlignment value="Center" />
+    <VerticalAlignment value="Center" />
+  </DefaultColumnHeaderStyle>
+  <DefaultRowHeaderStyle>
+    <HorizontalAlignment value="Center" />
+    <VerticalAlignment value="Center" />
+  </DefaultRowHeaderStyle>
+  <SelectionBorderColor />
+  <TouchSelectionGripperBackgroundColor value="#FFFFFFFF" />
+  <CellBlock rc="26" cc="47">
+    <Data>
+      <C pos="5,12" type="0" value="忘记密码" />
+      <C pos="8,12" type="0" value="请输入你的用户名或邮箱地址。点击发送按钮后，系统会发送一封电子邮件到你的电子邮箱中。电子邮件会包含一个重置密码网页的链接。你可以打开链接，在网页中指定新密码。" />
+      <C pos="14,12" type="0" value="用户名或邮箱地址" />
+      <C pos="17,25" type="0" value="发送" />
+      <C pos="17,31" type="0" value="取消发送" />
+      <Types>
+        <Type id="0" name="System.String" assembly="mscorlib" />
+      </Types>
+    </Data>
+    <Style>
+      <C pos="4,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABATPT#FFBABABA" />
+      <C pos="4,11" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,12" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,13" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,14" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,15" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,16" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,17" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,18" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,19" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,20" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,21" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,22" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,23" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,24" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,25" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,26" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,27" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,28" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,29" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,30" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,31" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,32" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,33" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,34" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,35" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TPT#FFBABABA" />
+      <C pos="4,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABATPT#FFBABABA" />
+      <C pos="5,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="5,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="5,12" type="0" value="FSIZE=37.33BKGUDCOLR=#FFF7F7F7FGUDCLOR=#FF333333FMT=General" />
+      <C pos="5,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="6,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="6,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="6,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="7,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="7,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="7,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="8,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="8,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="8,12" type="0" value="BKGUDCOLR=#FFF7F7F7FGUDCLOR=#FF333333HVLIGN=LeftWRAPTXT=TrueBORD=BTMLFRTTPFMT=General" />
+      <C pos="8,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="9,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="9,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="9,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="10,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="10,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="10,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="11,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="11,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="11,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="12,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="12,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="12,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="13,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="13,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="13,12" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="13,13" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="13,14" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="13,15" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="13,16" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="13,17" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="13,18" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="13,19" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,20" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,21" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,22" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,23" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,24" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,25" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,26" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,27" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,28" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,29" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,30" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,31" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,32" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,33" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,34" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTM" />
+      <C pos="13,35" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="13,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="14,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="14,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="14,12" type="0" value="FSIZE=14.00BKGUDCOLR=#FFF7F7F7FGUDCLOR=#FF595959HVLIGN=LeftBORD=BTMLFRTTPFMT=General" />
+      <C pos="14,18" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RT" />
+      <C pos="14,19" type="0" value="FSIZE=14.00BORD=BTMT#FFBABABALFT#FFBABABARTTPT#FFBABABA" />
+      <C pos="14,20" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,21" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,22" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,23" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,24" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,25" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,26" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,27" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,28" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,29" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,30" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,31" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,32" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,33" type="0" value="BORD=BTMT#FFBABABATPT#FFBABABA" />
+      <C pos="14,34" type="0" value="BORD=BTMT#FFBABABARTT#FFBABABATPT#FFBABABA" />
+      <C pos="14,35" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LF" />
+      <C pos="14,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="15,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="15,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="15,12" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="15,13" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="15,14" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="15,15" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="15,16" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="15,17" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="15,18" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="15,19" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,20" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,21" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,22" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,23" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,24" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,25" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,26" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,27" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,28" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,29" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,30" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,31" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,32" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,33" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,34" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=TP" />
+      <C pos="15,35" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="15,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="16,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="16,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,12" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,13" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,14" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,15" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,16" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,17" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,18" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,19" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,20" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,21" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,22" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,23" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,24" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,25" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,26" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,27" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,28" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,29" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,30" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,31" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,32" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,33" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,34" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,35" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="16,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="17,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="17,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,12" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,13" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,14" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,15" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,16" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,17" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,18" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,19" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,20" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,21" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,22" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,23" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,24" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,25" type="0" value="FSIZE=14.00FWight=BoldBKGUDCOLR=#FF2690EBFGUDCLOR=#FFFFFFFFBORD=TPFMT=General" />
+      <C pos="17,30" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="17,31" type="0" value="FSIZE=14.00FWight=BoldBKGUDCOLR=#FFF7F7F7FGUDCLOR=#FF0070C0HVLIGN=CenterINDENT=0FMT=General" />
+      <C pos="17,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="18,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="18,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,12" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,13" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,14" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,15" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,16" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,17" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,18" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,19" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,20" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,21" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,22" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,23" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,24" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,30" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="18,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="19,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=LFT#FFBABABA" />
+      <C pos="19,11" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,12" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,13" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,14" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,15" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,16" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,17" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,18" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,19" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,20" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,21" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,22" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,23" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,24" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,25" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,26" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,27" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,28" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,29" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,30" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,31" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,32" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,33" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,34" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,35" type="0" value="BKGUDCOLR=#FFF7F7F7" />
+      <C pos="19,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=RTT#FFBABABA" />
+      <C pos="20,10" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABALFT#FFBABABA" />
+      <C pos="20,11" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,12" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,13" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,14" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,15" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,16" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,17" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,18" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,19" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,20" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,21" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,22" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,23" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,24" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,25" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,26" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,27" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,28" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,29" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,30" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,31" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,32" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,33" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,34" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,35" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABA" />
+      <C pos="20,36" type="0" value="BKGUDCOLR=#FFF7F7F7BORD=BTMT#FFBABABARTT#FFBABABA" />
+      <Types>
+        <Type id="0" name="System.String" assembly="mscorlib" />
+      </Types>
+    </Style>
+    <Tag>
+      <C pos="14,19" type="0">
+        <CellType class="Forguncy.TextCellType" assembly="Forguncy">
+          <ForguncyAttribute>ForgotPassword_UserOrEmail</ForguncyAttribute>
+          <Validators>
+            <Item class="Forguncy.CellTypes.Models.UniqueValidadator" assembly="Forguncy" />
+          </Validators>
+        </CellType>
+        <DataValidationInfo>
+          <ErrorMessage />
+          <IgnoreBlank>False</IgnoreBlank>
+          <InputMessage />
+          <InputMessageTitle />
+          <SelectedDefaultRegularExpression />
+        </DataValidationInfo>
+        <IsCellIgnoreHideInListview>False</IsCellIgnoreHideInListview>
+      </C>
+      <C pos="17,25" type="0">
+        <CellType class="Forguncy.ButtonCellType" assembly="Forguncy">
+          <AutoExecute>True</AutoExecute>
+          <ForguncyAttribute>ForgotPassword_Send</ForguncyAttribute>
+          <Text>发送</Text>
+        </CellType>
+        <IsCellIgnoreHideInListview>False</IsCellIgnoreHideInListview>
+      </C>
+      <C pos="17,31" type="0">
+        <CellType class="Forguncy.HyperlinkCellType" assembly="Forguncy">
+          <CommandList>
+            <Item class="Forguncy.Model.NavigateCommand" assembly="Forguncy">
+              <NavigateType>back</NavigateType>
+            </Item>
+          </CommandList>
+          <Text>取消发送</Text>
+        </CellType>
+        <IsCellIgnoreHideInListview>False</IsCellIgnoreHideInListview>
+      </C>
+      <Types>
+        <Type id="0" name="Forguncy.AttachedInfo" assembly="Forguncy" />
+      </Types>
+    </Tag>
+  </CellBlock>
+  <RowHeaderBlock rc="26" cc="1" />
+  <ColumnHeaderBlock rc="1" cc="47" />
+  <ViewportRowsAxis length="26">
+    <Item index="12">
+      <Size value="30" />
+    </Item>
+    <Item index="14">
+      <Size value="30" />
+    </Item>
+  </ViewportRowsAxis>
+  <ViewportColumnsAxis length="0" />
+  <RowHeaderColumnsAxis length="1">
+    <Item index="0">
+      <CanUserResize value="False" />
+    </Item>
+  </RowHeaderColumnsAxis>
+  <ColumnHeaderRowsAxis length="1">
+    <Item index="0">
+      <CanUserResize value="False" />
+    </Item>
+  </ColumnHeaderRowsAxis>
+  <ViewportRowsAxisStyle length="26" />
+  <ViewportColumnsAxisStyle length="47" />
+  <RowHeaderRowsAxisStyle length="26" />
+  <RowHeaderColumnsAxisStyle length="1" />
+  <ColumnHeaderRowsAxisStyle length="1" />
+  <ColumnHeaderColumnsAxisStyle length="47" />
+  <CellsSpanModel>
+    <Items>
+      <Item r="5" c="12" rc="3" cc="24" />
+      <Item r="17" c="31" rc="2" cc="5" />
+      <Item r="17" c="25" rc="2" cc="5" />
+      <Item r="8" c="12" rc="5" cc="24" />
+      <Item r="14" c="12" rc="1" cc="6" />
+      <Item r="14" c="19" rc="1" cc="16" />
+    </Items>
+  </CellsSpanModel>
+  <SelectionModel>
+    <Items>
+      <Item r="0" c="0" rc="1" cc="1" />
+    </Items>
+  </SelectionModel>
+  <ViewportInfo rowPaneCount="1" columnPaneCount="1">
+    <ViewportLeftColumns>
+      <Item type="System.Int32" value="0" />
+    </ViewportLeftColumns>
+    <ViewportTopRows>
+      <Item type="System.Int32" value="0" />
+    </ViewportTopRows>
+    <ViewportWidths>
+      <Item type="System.Double" value="-1" />
+    </ViewportWidths>
+    <ViewportHeights>
+      <Item type="System.Double" value="-1" />
+    </ViewportHeights>
+  </ViewportInfo>
+</Sheet>

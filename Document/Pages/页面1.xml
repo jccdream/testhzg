@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sheet name="页面1">
+  <DefaultColumnWidth value="20" />
+  <DefaultStyle>
+    <FontFamily value="宋体" />
+  </DefaultStyle>
+  <DefaultColumnHeaderStyle>
+    <HorizontalAlignment value="Center" />
+    <VerticalAlignment value="Center" />
+  </DefaultColumnHeaderStyle>
+  <DefaultRowHeaderStyle>
+    <HorizontalAlignment value="Center" />
+    <VerticalAlignment value="Center" />
+  </DefaultRowHeaderStyle>
+  <SelectionBorderColor />
+  <TouchSelectionGripperBackgroundColor value="#FFFFFFFF" />
+  <CellBlock rc="45" cc="60" />
+  <RowHeaderBlock rc="45" cc="1" />
+  <ColumnHeaderBlock rc="1" cc="60" />
+  <ViewportRowsAxis length="45" />
+  <ViewportColumnsAxis length="60" />
+  <RowHeaderColumnsAxis length="1">
+    <Item index="0">
+      <CanUserResize value="False" />
+    </Item>
+  </RowHeaderColumnsAxis>
+  <ColumnHeaderRowsAxis length="1">
+    <Item index="0">
+      <CanUserResize value="False" />
+    </Item>
+  </ColumnHeaderRowsAxis>
+  <ViewportRowsAxisStyle length="45" />
+  <ViewportColumnsAxisStyle length="60" />
+  <RowHeaderRowsAxisStyle length="45" />
+  <RowHeaderColumnsAxisStyle length="1" />
+  <ColumnHeaderRowsAxisStyle length="1" />
+  <ColumnHeaderColumnsAxisStyle length="60" />
+  <SelectionModel>
+    <Items>
+      <Item r="0" c="0" rc="1" cc="1" />
+    </Items>
+  </SelectionModel>
+  <ViewportInfo rowPaneCount="1" columnPaneCount="1">
+    <ViewportLeftColumns>
+      <Item type="System.Int32" value="0" />
+    </ViewportLeftColumns>
+    <ViewportTopRows>
+      <Item type="System.Int32" value="0" />
+    </ViewportTopRows>
+    <ViewportWidths>
+      <Item type="System.Double" value="-1" />
+    </ViewportWidths>
+    <ViewportHeights>
+      <Item type="System.Double" value="-1" />
+    </ViewportHeights>
+  </ViewportInfo>
+</Sheet>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sheet name="FGC_维护中">
+  <DefaultColumnWidth value="20" />
+  <PrintInfo>
+    <Margin />
+    <PaperSize />
+  </PrintInfo>
+  <NamedStyles>
+    <Item index="0" type="StyleInfo">
+      <Name value="HVLIGN=Center" />
+      <HorizontalAlignment value="Center" />
+    </Item>
+    <Item index="1" type="StyleInfo">
+      <Name value="FSIZE=32.00FGUDCLOR=#FF5A5A5AHVLIGN=CenterFMT=General" />
+      <FontSize value="32" />
+      <HorizontalAlignment value="Center" />
+      <Foreground type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FF5A5A5A" />
+        <Opacity value="1" />
+      </Foreground>
+      <Formatter value="[Auto]General" />
+    </Item>
+    <Item index="2" type="StyleInfo">
+      <Name value="FSIZE=22.67FGUDCLOR=#FF323232FMT=General" />
+      <FontSize value="22.6666660308838" />
+      <Foreground type="System.Windows.Media.SolidColorBrush">
+        <Color value="#FF323232" />
+        <Opacity value="1" />
+      </Foreground>
+      <Formatter value="[Auto]General" />
+    </Item>
+  </NamedStyles>
+  <DefaultStyle>
+    <FontFamily value="微软雅黑" />
+  </DefaultStyle>
+  <DefaultColumnHeaderStyle>
+    <HorizontalAlignment value="Center" />
+    <VerticalAlignment value="Center" />
+  </DefaultColumnHeaderStyle>
+  <DefaultRowHeaderStyle>
+    <HorizontalAlignment value="Center" />
+    <VerticalAlignment value="Center" />
+  </DefaultRowHeaderStyle>
+  <SelectionBorderColor />
+  <TouchSelectionGripperBackgroundColor value="#FFFFFFFF" />
+  <CellBlock rc="18" cc="29">
+    <Data>
+      <C pos="3,1" type="0" value="网站维护中，请稍后访问" />
+      <C pos="8,1" type="0" value="很抱歉，网站目前正在维护，请稍后再来访问。" />
+      <C pos="11,1" type="0" value="如果有其他问题，请联系网站管理员" />
+      <Types>
+        <Type id="0" name="System.String" assembly="mscorlib" />
+      </Types>
+    </Data>
+    <Style>
+      <C pos="3,1" type="0" value="FSIZE=32.00FGUDCLOR=#FF5A5A5AHVLIGN=CenterFMT=General" />
+      <C pos="3,28" type="0" value="HVLIGN=Center" />
+      <C pos="8,1" type="0" value="FSIZE=22.67FGUDCLOR=#FF323232FMT=General" />
+      <C pos="11,1" type="0" value="FSIZE=22.67FGUDCLOR=#FF323232FMT=General" />
+      <Types>
+        <Type id="0" name="System.String" assembly="mscorlib" />
+      </Types>
+    </Style>
+  </CellBlock>
+  <RowHeaderBlock rc="18" cc="1" />
+  <ColumnHeaderBlock rc="1" cc="29" />
+  <ViewportRowsAxis length="0" />
+  <ViewportColumnsAxis length="0" />
+  <RowHeaderColumnsAxis length="1">
+    <Item index="0">
+      <CanUserResize value="False" />
+    </Item>
+  </RowHeaderColumnsAxis>
+  <ColumnHeaderRowsAxis length="1">
+    <Item index="0">
+      <CanUserResize value="False" />
+    </Item>
+  </ColumnHeaderRowsAxis>
+  <ViewportRowsAxisStyle length="18" />
+  <ViewportColumnsAxisStyle length="29" />
+  <RowHeaderRowsAxisStyle length="18" />
+  <RowHeaderColumnsAxisStyle length="1" />
+  <ColumnHeaderRowsAxisStyle length="1" />
+  <ColumnHeaderColumnsAxisStyle length="29" />
+  <CellsSpanModel>
+    <Items>
+      <Item r="3" c="1" rc="3" cc="27" />
+      <Item r="8" c="1" rc="3" cc="27" />
+      <Item r="11" c="1" rc="3" cc="27" />
+    </Items>
+  </CellsSpanModel>
+  <SelectionModel>
+    <Items>
+      <Item r="0" c="0" rc="1" cc="1" />
+    </Items>
+  </SelectionModel>
+  <ViewportInfo rowPaneCount="1" columnPaneCount="1">
+    <ViewportLeftColumns>
+      <Item type="System.Int32" value="0" />
+    </ViewportLeftColumns>
+    <ViewportTopRows>
+      <Item type="System.Int32" value="0" />
+    </ViewportTopRows>
+    <ViewportWidths>
+      <Item type="System.Double" value="-1" />
+    </ViewportWidths>
+    <ViewportHeights>
+      <Item type="System.Double" value="-1" />
+    </ViewportHeights>
+  </ViewportInfo>
+</Sheet>

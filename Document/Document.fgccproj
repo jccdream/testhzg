@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ForguncyProject>
+  <IntegrateWithOtherApplication>
+    <Password>csC~wpVCTh6d</Password>
+  </IntegrateWithOtherApplication>
+  <ListviewGlobalSetting>
+    <HeaderHightlightStyle />
+    <HeaderHoverStyle />
+    <HeaderNormalStyle />
+    <HeaderSelectedStyle />
+  </ListviewGlobalSetting>
+  <Pages>
+    <MasterPages>
+      <Item class="Forguncy.Model.Pages.MasterPage" assembly="Forguncy">
+        <IsBuiltInPage>True</IsBuiltInPage>
+        <Name>FGC_母版页</Name>
+      </Item>
+    </MasterPages>
+    <NormalPageRoot>
+      <Items>
+        <Item class="Forguncy.Model.Pages.PageFolder" assembly="Forguncy">
+          <Items>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <IsMobilePage>True</IsMobilePage>
+              <Name>FGC_401页面_手机版</Name>
+              <Title>401页面</Title>
+              <Weight>0</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <IsMobilePage>True</IsMobilePage>
+              <Name>FGC_登录_手机版</Name>
+              <Title>登录</Title>
+              <Weight>1</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <IsMobilePage>True</IsMobilePage>
+              <Name>FGC_忘记密码_手机版</Name>
+              <Title>忘记密码</Title>
+              <Weight>2</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <IsMobilePage>True</IsMobilePage>
+              <Name>FGC_维护中_手机版</Name>
+              <Weight>3</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <IsMobilePage>True</IsMobilePage>
+              <Name>FGC_修改密码_手机版</Name>
+              <Title>修改密码</Title>
+              <Weight>4</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <IsMobilePage>True</IsMobilePage>
+              <Name>FGC_修改用户信息_手机版</Name>
+              <Title>修改用户信息</Title>
+              <Weight>5</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <IsMobilePage>True</IsMobilePage>
+              <Name>FGC_邮件订阅_手机版</Name>
+              <Weight>6</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <IsMobilePage>True</IsMobilePage>
+              <Name>FGC_重置密码_手机版</Name>
+              <Title>重置密码</Title>
+              <Weight>7</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <IsMobilePage>True</IsMobilePage>
+              <Name>FGC_重置密码发送邮件成功_手机版</Name>
+              <Title>重置密码邮件发送成功</Title>
+              <Weight>8</Weight>
+            </Item>
+          </Items>
+          <Name>内建手机页面</Name>
+          <Weight>0</Weight>
+        </Item>
+        <Item class="Forguncy.Model.Pages.PageFolder" assembly="Forguncy">
+          <Items>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <MasterPageName>FGC_母版页</MasterPageName>
+              <MobilePageName>FGC_401页面_手机版</MobilePageName>
+              <Name>FGC_401页面</Name>
+              <Title>401页面</Title>
+              <Weight>0</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <MasterPageName>FGC_母版页</MasterPageName>
+              <MobilePageName>FGC_登录_手机版</MobilePageName>
+              <Name>FGC_登录</Name>
+              <Title>登录</Title>
+              <Weight>1</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <MasterPageName>FGC_母版页</MasterPageName>
+              <MobilePageName>FGC_忘记密码_手机版</MobilePageName>
+              <Name>FGC_忘记密码</Name>
+              <Title>忘记密码</Title>
+              <Weight>2</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <MobilePageName>FGC_维护中_手机版</MobilePageName>
+              <Name>FGC_维护中</Name>
+              <Weight>3</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <MasterPageName>FGC_母版页</MasterPageName>
+              <MobilePageName>FGC_修改密码_手机版</MobilePageName>
+              <Name>FGC_修改密码</Name>
+              <Title>修改密码</Title>
+              <Weight>4</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <MasterPageName>FGC_母版页</MasterPageName>
+              <MobilePageName>FGC_修改用户信息_手机版</MobilePageName>
+              <Name>FGC_修改用户信息</Name>
+              <Title>修改用户信息</Title>
+              <Weight>5</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <MasterPageName>FGC_母版页</MasterPageName>
+              <MobilePageName>FGC_邮件订阅_手机版</MobilePageName>
+              <Name>FGC_邮件订阅</Name>
+              <Weight>6</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <MasterPageName>FGC_母版页</MasterPageName>
+              <MobilePageName>FGC_重置密码_手机版</MobilePageName>
+              <Name>FGC_重置密码</Name>
+              <Title>重置密码</Title>
+              <Weight>7</Weight>
+            </Item>
+            <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+              <AuthorizeInfo>
+                <VisitMode>Anonymous</VisitMode>
+              </AuthorizeInfo>
+              <IsBuiltInPage>True</IsBuiltInPage>
+              <MasterPageName>FGC_母版页</MasterPageName>
+              <MobilePageName>FGC_重置密码发送邮件成功_手机版</MobilePageName>
+              <Name>FGC_重置密码发送邮件成功</Name>
+              <Title>重置密码邮件发送成功</Title>
+              <Weight>8</Weight>
+            </Item>
+          </Items>
+          <Name>内建页面</Name>
+          <Weight>1</Weight>
+        </Item>
+        <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+          <AuthorizeInfo>
+            <VisitMode>LogonUser</VisitMode>
+          </AuthorizeInfo>
+          <Name>页面1</Name>
+          <Weight>2</Weight>
+        </Item>
+        <Item class="Forguncy.Model.Pages.NormalPage" assembly="Forguncy">
+          <AuthorizeInfo>
+            <VisitMode>LogonUser</VisitMode>
+          </AuthorizeInfo>
+          <Name>页面2</Name>
+          <Weight>3</Weight>
+        </Item>
+      </Items>
+    </NormalPageRoot>
+  </Pages>
+  <TableSet>
+    <Tables>
+      <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+        <Columns>
+          <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+            <AutoIncrement>True</AutoIncrement>
+            <ColumnType>System.Int64</ColumnType>
+            <DatabaseColumnType>System.Int64</DatabaseColumnType>
+            <DefaultValue class="System.DBNull" assembly="mscorlib" />
+            <MaxLength>-1</MaxLength>
+            <Name>ID</Name>
+            <Required>True</Required>
+            <Unique>True</Unique>
+          </Item>
+          <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+            <ColumnType>System.String</ColumnType>
+            <Name>FGC_Creator</Name>
+          </Item>
+          <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+            <ColumnType>System.DateTime</ColumnType>
+            <Name>FGC_CreateDate</Name>
+          </Item>
+          <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+            <ColumnType>System.String</ColumnType>
+            <Name>FGC_LastModifier</Name>
+          </Item>
+          <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+            <ColumnType>System.DateTime</ColumnType>
+            <Name>FGC_LastModifyDate</Name>
+          </Item>
+        </Columns>
+        <Name>表1</Name>
+        <PrimaryKey>
+          <Item type="System.String">
+            <Value>ID</Value>
+          </Item>
+        </PrimaryKey>
+        <Weight>0</Weight>
+      </Item>
+    </Tables>
+  </TableSet>
+  <UserServicePort>58344</UserServicePort>
+  <WebSitePort>11896</WebSitePort>
+</ForguncyProject>
