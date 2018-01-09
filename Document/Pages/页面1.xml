@@ -1,6 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Sheet name="页面1">
   <DefaultColumnWidth value="20" />
+  <NamedStyles>
+    <Item index="0" type="StyleInfo">
+      <Name value="BORD=BTMLFRTTP" />
+      <LeftBorder value="(null)" />
+      <TopBorder value="(null)" />
+      <RightBorder value="(null)" />
+      <BottomBorder value="(null)" />
+    </Item>
+    <Item index="1" type="StyleInfo">
+      <Name value="BORD=BTMLFRTTPFMT=General" />
+      <LeftBorder value="(null)" />
+      <TopBorder value="(null)" />
+      <RightBorder value="(null)" />
+      <BottomBorder value="(null)" />
+      <Formatter value="[Auto]General" />
+    </Item>
+  </NamedStyles>
   <DefaultStyle>
     <FontFamily value="宋体" />
   </DefaultStyle>
@@ -14,7 +31,27 @@
   </DefaultRowHeaderStyle>
   <SelectionBorderColor />
   <TouchSelectionGripperBackgroundColor value="#FFFFFFFF" />
-  <CellBlock rc="45" cc="60" />
+  <CellBlock rc="45" cc="60">
+    <Data>
+      <C pos="2,2" type="0" value="1" />
+      <Types>
+        <Type id="0" name="System.Int32" assembly="mscorlib" />
+      </Types>
+    </Data>
+    <Style>
+      <C pos="2,2" type="0" value="BORD=BTMLFRTTPFMT=General" />
+      <C pos="2,3" type="0" value="BORD=BTMLFRTTP" />
+      <C pos="2,4" type="0" value="BORD=BTMLFRTTP" />
+      <C pos="2,5" type="0" value="BORD=BTMLFRTTP" />
+      <C pos="3,2" type="0" value="BORD=BTMLFRTTP" />
+      <C pos="3,3" type="0" value="BORD=BTMLFRTTP" />
+      <C pos="3,4" type="0" value="BORD=BTMLFRTTP" />
+      <C pos="3,5" type="0" value="BORD=BTMLFRTTP" />
+      <Types>
+        <Type id="0" name="System.String" assembly="mscorlib" />
+      </Types>
+    </Style>
+  </CellBlock>
   <RowHeaderBlock rc="45" cc="1" />
   <ColumnHeaderBlock rc="1" cc="60" />
   <ViewportRowsAxis length="45" />
@@ -35,10 +72,17 @@
   <RowHeaderColumnsAxisStyle length="1" />
   <ColumnHeaderRowsAxisStyle length="1" />
   <ColumnHeaderColumnsAxisStyle length="60" />
+  <CellsSpanModel>
+    <Items>
+      <Item r="2" c="2" rc="2" cc="4" />
+    </Items>
+  </CellsSpanModel>
   <SelectionModel>
     <Items>
-      <Item r="0" c="0" rc="1" cc="1" />
+      <Item r="2" c="2" rc="2" cc="4" />
     </Items>
+    <AnchorCellRow value="2" />
+    <AnchorColumnRow value="2" />
   </SelectionModel>
   <ViewportInfo rowPaneCount="1" columnPaneCount="1">
     <ViewportLeftColumns>
